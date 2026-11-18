@@ -1,0 +1,13 @@
+# 秘密情報（絶対にコミットしない）
+.env
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 自動実行のログ
+run.log
