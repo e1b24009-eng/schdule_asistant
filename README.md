@@ -98,3 +98,7 @@ Googleカレンダーの予定の「説明」欄や、Google ToDoリストのタ
 - `invalid_grant` / 「Googleのログインが切れた」と出たら：PCで `python src/main.py` を実行してブラウザから再ログインする
 - 再ログインを7日ごとに求められないようにするには：Google Cloud の「Google Auth Platform」→「対象」で **アプリを公開**（本番環境）にする。
   「テスト中」のままだと、ログインの有効期限が7日で切れます
+
+## プライバシーポリシー
+
+Google のデータの扱いは [PRIVACY.md](PRIVACY.md) を参照してください。
